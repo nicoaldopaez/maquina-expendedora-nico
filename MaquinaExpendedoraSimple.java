@@ -24,8 +24,12 @@ public class MaquinaExpendedoraSimple {
         estacionDestino = "Madrid";
     }
     
-    public void setPrecioBillete(int Preciobillete){
-        precioBillete = Preciobillete;
+    public void setPrecioBillete(int preciobillete){
+        precioBillete = preciobillete;
+    }
+    
+    public void setReducirPrecioBillete(int reducirpreciobillete){
+        precioBillete = precioBillete - reducirpreciobillete;
     }
 
     /**Segundo constructor
