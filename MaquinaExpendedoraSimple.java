@@ -31,6 +31,11 @@ public class MaquinaExpendedoraSimple {
     public void setReducirPrecioBillete(int reducirpreciobillete){
         precioBillete = precioBillete - reducirpreciobillete;
     }
+    
+    public void VaciarDepositoDinero(){
+        balanceClienteActual = balanceClienteActual - balanceClienteActual;
+    }
+    
 
     /**Segundo constructor
      */
